@@ -1,4 +1,4 @@
-package Without_Synchronization;
+package With_Synchronization;
 
 class BookTheaterSeat
 {
