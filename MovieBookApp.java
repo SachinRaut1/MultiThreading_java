@@ -3,7 +3,7 @@ package Without_Synchronization;
 class BookTheaterSeat
 {
 	int total_seats=10;
-	void bookseat(int seats)
+	synchronized void bookseat(int seats)
 	{
 		if(total_seats>=seats)
 		{
